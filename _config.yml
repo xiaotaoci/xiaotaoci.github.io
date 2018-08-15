@@ -11,7 +11,7 @@ github_repo: "https://github.com/xiaotaoci/xiaotaoci.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "<p>图片非本人</p><p>It all became so lovely<br>Those bluest skies above me<br>Those funny feelings<br>I had never felt before I met you</p><p>I thought I'd stay a while<br>I tried to learn to smile<br>So many colors<br>I had never even known</p><p>Maybe I'll find myself<br>Sitting on that distant shore<br>Maybe I'm not alone</p><p>Then I see the colors fading<br>Gentleness of light escaping<br>Shadows of my fear invading<br>Have I seen this all before?</p><p>I know<br>That there's something residing<br>A terror deep inside me<br>I couldn't understand<br>How you could be so bold</p><p>Maybe I'll find myself<br>Smiling on that distant shore<br>Maybe I'm not alone...</p>"
+sidebar-about-description: "图片非本人<br>It all became so lovely..."
 sidebar-avatar: /my_img/about-su-lapislazuli.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
