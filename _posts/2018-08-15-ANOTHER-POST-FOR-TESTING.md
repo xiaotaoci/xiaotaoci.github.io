@@ -4,7 +4,7 @@ title:      ANOTHER POST FOR TESTING
 subtitle:   这又是一个用来测试的post
 date:       2018-08-15
 author:     xiaotaoci
-header-img: my_imgpost-bg-test.jpg
+header-img: my_img/post-bg-test.jpg
 catalog: true
 tags:
     - TAG1
