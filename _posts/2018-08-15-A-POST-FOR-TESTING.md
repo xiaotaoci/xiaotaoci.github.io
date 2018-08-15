@@ -3,7 +3,7 @@ layout:     post
 title:      A POST FOR TESTING
 subtitle:   这只是一个用来测试的post
 date:       2018-08-15
-author:     xtc
+author:     xiaotaoci
 header-img: my_img/post-bg-test.jpg
 catalog: true
 tags:
