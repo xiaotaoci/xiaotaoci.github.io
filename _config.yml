@@ -59,8 +59,6 @@ kramdown:
 # Disqus（https://disqus.com/）
 # disqus_username: null
 
-<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js">
-
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
@@ -69,10 +67,8 @@ gitalk:
   repo: xiaotaoci.github.io    #仓库名称
   owner: xiaotaoci    #github用户名
   admin: xiaotaoci
-  id: md5(location.pathname)
+  id: <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js">md5(location.pathname)</script>
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-</script>
 
 # 统计
 
