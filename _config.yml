@@ -67,7 +67,8 @@ gitalk:
   repo: xiaotaoci.github.io    #仓库名称
   owner: xiaotaoci    #github用户名
   admin: xiaotaoci
-  id: <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js">md5(location.pathname)</script>
+  id: 333
+  # id: <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js">md5(location.pathname)</script>
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # 统计
