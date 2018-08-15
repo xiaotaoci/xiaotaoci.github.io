@@ -1,107 +1,45 @@
 ---
 layout:     post
-title:      从一道网易面试题浅谈 Tagged Pointer
-subtitle:   浅谈 Tagged Pointer
-date:       2017-12-26
-author:     BY
-header-img: img/post-bg-universe.jpg
+title:      A POST FOR TESTING
+subtitle:   这只是一个用来测试的post
+date:       2018-08-15
+author:     xtc
+header-img: my_img/post-bg-test.jpg
 catalog: true
 tags:
-    - iOS
+    - TAG1
+    - TAG2
+    - TAG3
 ---
 
 
-## 前言
 
-这篇博客九月就想写了，因为赶项目拖了到现在，抓住17年尾巴写吧~
+# Season 6
 
-
-## 正文
-
-上次看了一篇 [《从一道网易面试题浅谈OC线程安全》](https://www.jianshu.com/p/cec2a41aa0e7) 的博客，主要内容是：
-
-作者去网易面试，面试官出了一道面试题：下面代码会发生什么问题？
-
-```objc
-@property (nonatomic, strong) NSString *target;
-//....
-dispatch_queue_t queue = dispatch_queue_create("parallel", DISPATCH_QUEUE_CONCURRENT);
-for (int i = 0; i < 1000000 ; i++) {
-    dispatch_async(queue, ^{
-        self.target = [NSString stringWithFormat:@"ksddkjalkjd%d",i];
-    });
-}
-```
-
-答案是：会 crash。
-
-我们来看看对`target`属性（`strong`修饰）进行赋值，相当与 MRC 中的
-
-```
-- (void)setTarget:(NSString *)target {
-    if (target == _target) return;
-    id pre = _target;
-    [target retain];//1.先保留新值
-    _target = target;//2.再进行赋值
-    [pre release];//3.释放旧值
-}
-```
-
-因为在 *并行队列* `DISPATCH_QUEUE_CONCURRENT` 中*异步* `dispatch_async` 对 `target`属性进行赋值，就会导致 target 已经被 `release`了，还会执行 `release`。这就是向已释放内存对象发送消息而发生 crash 。
-
-
-### 但是
-
-我敲了这段代码，执行的时候发现并不会 crash~
-
-```objc
-@property (nonatomic, strong) NSString *target;
-dispatch_queue_t queue = dispatch_queue_create("parallel", DISPATCH_QUEUE_CONCURRENT);
-for (int i = 0; i < 1000000 ; i++) {
-    dispatch_async(queue, ^{
-    	// ‘ksddkjalkjd’删除了
-        self.target = [NSString stringWithFormat:@"%d",i];
-    });
-}
-```
-
-原因就出在对 `self.target` 赋值的字符串上。博客的最后也提到了 - *‘上述代码的字符串改短一些，就不会崩溃’*，还有 `Tagged Pointer` 这个东西。
-
-我们将上面的代码修改下：
-
-
-```objc
-NSString *str = [NSString stringWithFormat:@"%d", i];
-NSLog(@"%d, %s, %p", i, object_getClassName(str), str);
-self.target = str;
-```
-
-输出：
-
-```
-0, NSTaggedPointerString, 0x3015
-```
-
-发现这个字符串类型是 `NSTaggedPointerString`，那我们来看看 Tagged Pointer 是什么？
-
-### Tagged Pointer
-
-Tagged Pointer 详细的内容可以看这里 [深入理解Tagged Pointer](http://www.infoq.com/cn/articles/deep-understanding-of-tagged-pointer)。
-
-Tagged Pointer 是一个能够提升性能、节省内存的有趣的技术。
-
-- Tagged Pointer 专门用来存储小的对象，例如 **NSNumber** 和 **NSDate**（后来可以存储小字符串）
-- Tagged Pointer 指针的值不再是地址了，而是真正的值。所以，实际上它不再是一个对象了，它只是一个披着对象皮的普通变量而已。
-- 它的内存并不存储在堆中，也不需要 malloc 和 free，所以拥有极快的读取和创建速度。
+**Season 6** is the sixth season of *Steven Universe*. Little is known about this installment of the series, but what is known so far is that there are currently 32 planned episodes in the season<sup>[1]</sup>. The season was confirmed by Cartoon Network's official Instagram in the comments section of a post.<sup>[2]</sup>
 
 
 
+### Trivia
 
-### 参考：
+- On February 15, 2017, Deedee Magno-Hall tweeted an image of Rebecca Sugar working at the recording studio. The production codes on the screen show "609" and "610", which hint at episodes 9 and 10 of the sixth season.<sup>[3]</sup>
 
-- [从一道网易面试题浅谈OC线程安全](https://www.jianshu.com/p/cec2a41aa0e7)
+- On April 30, 2018, Leisha Medina (the Latin American voice actor of Steven and Blue Diamond) tweeted that she is already working on and cannot confirm anything about Season 6.<sup>[4]</sup>
 
-- [深入理解Tagged Pointer](http://www.infoq.com/cn/articles/deep-understanding-of-tagged-pointer)
+- There was a comment that was made on Cartoon Network's official Instagram where someone by the username of gmike0220 said "So sad, is this the last season 😰" and cartoonnetworkofficial replied to them "No, there's so more to come! 😉"<sup>[2]</sup>
 
-- [【译】采用Tagged Pointer的字符串](http://www.cocoachina.com/ios/20150918/13449.html)
+![Season_6_Confirmed](https://vignette.wikia.nocookie.net/steven-universe/images/6/6f/Season6Confirmed.jpeg/revision/latest?cb=20180622075443)
 
+- It is possible that Season 6 will have the standard 26-episode count instead of 32; the additional six episodes could make up the length of the movie (~90 minutes).
+
+
+
+### References
+
+1. At 03:28 of episode 8 of The Steven Universe Podcast, Jackie Buscarino says "So like, Season 4 was 16 half-hours, so that's 32 episodes all overlapping." Season 2 and Season 3 were originally formatted as a single 52-episode season. However, for unknown reasons, Cartoon Network relabeled the second half of the second season as Season 3 and then split the original third season into Season 4 and Season 5. This had no effect on production, meaning that the Season 5 episodes were/are still in production for Season 3. So for fans, Season 6 is the season after Season 5, but for producers, it would be Season 4. The 32-episode count doesn't line up with any other season.
+
+2. https://instagram.com/p/BkLxe5mnLEm/
+
+3. https://mobile.twitter.com/DeedeeMagnoHall/status/832035395617501185/photo/3
+
+4. https://vignette.wikia.nocookie.net/steven-universe/images/5/53/SU_LA_Season_6_confirmation.png/revision/latest?cb=20180508202937
