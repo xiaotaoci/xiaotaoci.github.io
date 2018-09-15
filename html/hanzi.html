@@ -636,7 +636,7 @@
         y = y.replace(/ref/g, "拾");
         y = y.replace(/reg/g, "灼");
         y = y.replace(/rem/g, "剪");
-		y = y.replace(/ren/g, "落");
+   		y = y.replace(/ren/g, "落");
         y = y.replace(/rep/g, "阁");
         y = y.replace(/res/g, "停");
         y = y.replace(/ret/g, "助");
@@ -2537,23 +2537,33 @@
 </head>
 
 <body>
-    <h1><br>English ⇔ Hanzi 在线翻译器</h1>
-	<p>
-	<input type="button" onclick="disp_translate()" value="点我翻译" style="font-size:16" /> &nbsp;
-	</p>
-	<p>
-	翻译模式：
-	<input type="radio" name="Mode" id="mode1" checked value="engtohan" />
-	English >> Hanzi &nbsp;
-	<input type="radio" name="Mode" id="mode2" value="hantoeng" />
-	Hanzi >> English
-	</p>
 	
-    <!-- Input -->
-	<p>
-	<textarea rows="10" cols="60" id="in" style="resize:none;font-family:Arial;font-size:16"></textarea></p>
-    <!-- Output -->
-	<p>
-	<textarea disabled rows="10" cols="60" id="out" style="resize:none;font-family:Arial;font-size:16"></textarea></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			
+   				    <h1>English ⇔ Hanzi 在线翻译器</h1>
+					<p>
+					<input type="button" onclick="disp_translate()" value="点我翻译" style="font-size:16" /> &nbsp;
+					</p>
+					<p>
+					翻译模式：
+					<input type="radio" name="Mode" id="mode1" checked value="engtohan" />
+					English >> Hanzi &nbsp;
+					<input type="radio" name="Mode" id="mode2" value="hantoeng" />
+					Hanzi >> English
+					</p>
+	
+    				<!-- Input -->
+					<p>
+					<textarea rows="10" cols="60" id="in" style="resize:none;font-family:Arial;font-size:16"></textarea></p>
+   				 	<!-- Output -->
+					<p>
+					<textarea disabled rows="10" cols="60" id="out" style="resize:none;font-family:Arial;font-size:16"></textarea></p>
+			
+			</div>
+		</div>
+	</div>
+	
 </body>
 </html>
