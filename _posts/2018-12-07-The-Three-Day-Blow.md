@@ -18,9 +18,7 @@ As Nick crossed the open field above the orchard the door of the cottage opened 
 
 “Hey, Bill,” Nick said, coming up the steps. They stood together looking out across the country, down over the orchard, beyond the road, across the lower fields and the woods of the point to the lake. The wind was blowing straight down the lake. They could see the surf along Ten Mile point.
 
-“She’s blowing,” Nick said. “She’ll blow like that for three days,” Bill said. “Is your dad in?” Nick asked. “No. He’s out with the gun. Come on in.” Nick went inside the cottage. There was a big fire in the fireplace. The wind made it roar. Bill
-
-shut the door. “Have a drink?” he said. He went out to the kitchen and came back with two glasses and a pitcher of water. Nick reached the whisky bottle from the shelf above the fireplace.
+“She’s blowing,” Nick said. “She’ll blow like that for three days,” Bill said. “Is your dad in?” Nick asked. “No. He’s out with the gun. Come on in.” Nick went inside the cottage. There was a big fire in the fireplace. The wind made it roar. Bill shut the door. “Have a drink?” he said. He went out to the kitchen and came back with two glasses and a pitcher of water. Nick reached the whisky bottle from the shelf above the fireplace.
 
 “All right?” he said. “Good,” said Bill. They sat in front of the fire and drank the Irish whisky and water. “It’s got a swell, smoky taste,” Nick said, and looked at the fire through the glass. “That’s the peat,” Bill said. “You can’t get peat into liquor,” Nick said. “That doesn’t make any difference,” Bill said. “You ever seen any peat?” Nick asked. “No,” said Bill. “Neither have I,” Nick said. His shoes, stretched out on the hearth, began to steam in front of the fire. “Better take your shoes off,” Bill said. “I haven’t got any socks on.” “Take them off and dry them and I’ll get you some,” Bill said. He went upstairs into the loft and
 
@@ -36,9 +34,7 @@ Bill stood up. “He can hit,” Nick offered. The heat from the fire was baking
 
 “That doesn’t do us any good.” “I wonder if the Cards will ever win a pennant?” “Not in our lifetime,” Bill said. “Gee, they’d go crazy,” Nick said. “Do you remember when they got going that once before they had the train wreck?” “Boy!” Nick said, remembering. Bill reached over to the table under the window for the book that lay there, face down, where he had put it when he went to the door. He held his glass in one hand and the book in the other, leaning back against Nick’s chair. “What are you reading?” “‘Richard Feverel.'” “I couldn’t get into it.” “It’s all right,” Bill said. “It ain’t a bad book, Wemedge.” “What else have you got I haven’t read?” Nick asked.
 
-“Did you read the ‘Forest Lovers’?” “Yup. That’s the one where they go to bed every night with the naked sword between them.” “That’s a good book, Wemedge.” “It’s a swell book. What I couldn’t ever understand was what good the sword would do. It would
-
-have to stay edge up all the time because if it went over flat you could roll right over it and it wouldn’t make any trouble.”
+“Did you read the ‘Forest Lovers’?” “Yup. That’s the one where they go to bed every night with the naked sword between them.” “That’s a good book, Wemedge.” “It’s a swell book. What I couldn’t ever understand was what good the sword would do. It would have to stay edge up all the time because if it went over flat you could roll right over it and it wouldn’t make any trouble.”
 
 “It’s a symbol,” Bill said.
 
@@ -110,9 +106,7 @@ They felt very fine. “Gentlemen,” Bill said, “I give you Chesterton and Wa
 
 Nothing. Not a damn thing. He’s done for. You’ve seen the guys that get married.” Nick said nothing. “You can tell them,” Bill said. “They get this sort of fat married look. They’re done for.” “Sure,” said Nick. “It was probably bad busting it off,” Bill said. “But you always fall for somebody else and then it’s all right. Fall for them but don’t let them ruin you.” “Yes,” said Nick. “If you’d have married her you would have had to marry the whole family.
 
-Remember her mother and that guy she married.” Nick nodded. “Imagine having them around the house all the time and going to Sunday dinners at their house,
-
-and having them over to dinner and her telling Marge all the time what to do and how to act.” Nick sat quiet. “You came out of it damned well,” Bill said. “Now she can marry somebody of her own sort and settle down and be happy. You can’t mix oil and water and you can’t mix that sort of thing any more than if I’d marry Ida that works for Strattons. She’d probably like it, too.” Nick said nothing. The liquor had all died out of him and left him alone. Bill wasn’t there. He wasn’t sitting in front of the fire or going fishing tomorrow with Bill and his dad or any thing. He wasn’t drunk. It was all gone. All he knew was that he had once had Marjorie and that he had lost her. She was gone and he had sent her away. That was all that mattered. He might never see her again. Probably he never would. It was all gone, finished.
+Remember her mother and that guy she married.” Nick nodded. “Imagine having them around the house all the time and going to Sunday dinners at their house, and having them over to dinner and her telling Marge all the time what to do and how to act.” Nick sat quiet. “You came out of it damned well,” Bill said. “Now she can marry somebody of her own sort and settle down and be happy. You can’t mix oil and water and you can’t mix that sort of thing any more than if I’d marry Ida that works for Strattons. She’d probably like it, too.” Nick said nothing. The liquor had all died out of him and left him alone. Bill wasn’t there. He wasn’t sitting in front of the fire or going fishing tomorrow with Bill and his dad or any thing. He wasn’t drunk. It was all gone. All he knew was that he had once had Marjorie and that he had lost her. She was gone and he had sent her away. That was all that mattered. He might never see her again. Probably he never would. It was all gone, finished.
 
 “Let’s have another drink,” Nick said. Bill poured it out. Nick splashed in a little water. “If you’d gone on that way we wouldn’t be here now,” Bill said. That was true. His original plan had been to go down home and get a job. Then he had planned to stay in Charlevoix all winter so he could be near Marge. Now he did not know what he was going to do. “Probably we wouldn’t even be going fishing tomorrow,” Bill said. “You had the right dope, all right.”
 
