@@ -4,7 +4,7 @@ title:      The Garden Party
 subtitle:   Katherine Mansfie
 date:       2018-12-07
 author:     KeepThinking
-header-img: my_img/home-bg-1.jpg
+header-img: my_img/post-bg-20181207.jpg
 catalog: false
 tags:
     - 
