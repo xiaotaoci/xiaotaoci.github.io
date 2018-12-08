@@ -4,7 +4,7 @@ title:      The Three-Day Blow
 subtitle:   Ernest Hemingway
 date:       2018-12-07
 author:     KeepThinking
-header-img: my_img/home-bg-1.jpg
+header-img: my_img/post-bg-20181207-2.jpg
 catalog: false
 tags:
     - 
