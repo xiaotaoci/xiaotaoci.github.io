@@ -7,7 +7,7 @@ author:     KeepThinking
 header-img: my_img/post-bg-20181207-2.jpg
 catalog: false
 tags:
-    - 
+    - 2018.12
 ---
 
 The rain stopped as Nick turned into the road that went up through the orchard. The fruit had been picked and the fall wind blew through the bare trees. Nick stopped and picked up a Wagner apple from beside the road, shiny in the brown grass from the rain. He put the apple in the pocket of his Mackinaw coat.
