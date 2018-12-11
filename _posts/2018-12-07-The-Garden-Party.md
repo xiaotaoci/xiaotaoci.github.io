@@ -10,8 +10,6 @@ tags:
     - 2018.12
 ---
 
-```Source: http://www.eastoftheweb.com/short-stories/UBooks/GardPart.shtml```
-
 And after all the weather was ideal. They could not have had a more perfect day for a garden-party if they had ordered it. Windless, warm, the sky without a cloud. Only the blue was veiled with a haze of light gold, as it is sometimes in early summer. The gardener had been up since dawn, mowing the lawns and sweeping them, until the grass and the dark flat rosettes where the daisy plants had been seemed to shine. As for the roses, you could not help feeling they understood that roses are the only flowers that impress people at garden-parties; the only flowers that everybody is certain of knowing. Hundreds, yes, literally hundreds, had come out in a single night; the green bushes bowed down as though they had been visited by archangels.
 
 Breakfast was not yet over before the men came to put up the marquee.
