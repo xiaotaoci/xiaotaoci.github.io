@@ -127,7 +127,8 @@ header-img: "my_img/about-bg-1.jpg"
     owner: 'xiaotaoci',
     admin: ['xiaotaoci'],
     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: decodeURI(location.pathname),
+    id: 'blog_about',
+    body: location.href,
     });
     gitalk.render('gitalk-container');
 </script>
