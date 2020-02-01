@@ -859,6 +859,12 @@
 	document.getElementById("out").value = y;
 	}
 	
+	function disp_clear()
+	//清空
+	{
+	document.getElementById("in").value = "";
+	}
+	
     </script> 
 </head>
 
@@ -874,6 +880,7 @@
 	<p>
 	<input type="button" onclick="disp_encode()" value="Pinyin >> Chirean" style="font-size:16" /> 
 	<input type="button" onclick="disp_decode()" value="Chirean >> Pinyin" style="font-size:16" />
+	<input type="button" onclick="disp_clear()" value="Clear" style="font-size:16" />
 	</p>
 	
     <!-- Input -->
